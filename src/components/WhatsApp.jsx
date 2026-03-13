@@ -7,7 +7,7 @@ export default function Whatsapp() {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: "Veyil Solutions AI online. How can I assist with your stage production or festival today?",
+      content: "Path Finder AI online. How can I assist with your stage production or festival today?",
     },
   ]);
   const [isLoading, setIsLoading] = useState(false);
@@ -35,7 +35,7 @@ export default function Whatsapp() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            inputs: `[INST] You are the Veyil Solutions AI. Focus: Award Shows and Music Festivals. Tone: Professional. Question: ${input} [/INST]`,
+            inputs: `[INST] You are the Path Finder AI. Focus: Award Shows and Music Festivals. Tone: Professional. Question: ${input} [/INST]`,
           }),
         }
       );
@@ -115,7 +115,7 @@ export default function Whatsapp() {
                 <span className="signal-dot"></span>
               </div>
               <div>
-                <div style={{ fontWeight: "600", fontSize: "14px", letterSpacing: "0.5px" }}>VEYIL AI</div>
+                <div style={{ fontWeight: "600", fontSize: "14px", letterSpacing: "0.5px" }}>PATHFINDER AI</div>
                 <div style={{ fontSize: "10px", color: "#a1a1aa", display: "flex", alignItems: "center", gap: "4px" }}>
                   <Zap size={8} fill="#fbbf24" stroke="none" /> System Active
                 </div>
