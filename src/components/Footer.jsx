@@ -136,7 +136,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-text-wrapper">
-        <TextHoverEffect text="PATH FINDER" />
+        <TextHoverEffect text="PATH" />
       </div>
     </footer>
   );
