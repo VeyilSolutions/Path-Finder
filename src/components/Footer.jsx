@@ -80,7 +80,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-grid">
           <div className="footer-col brand-col">
-            <div className="footer-logo">VEYIL SOLUTIONS</div>
+            <div className="footer-logo">PATH FINDER</div>
             <p className="brand-description">
               Elevating events with premium management and state-of-the-art digital ecosystems.
             </p>
@@ -109,8 +109,8 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-heading">Get In Touch</h4>
             <div className="contact-info">
-              <a href="mailto:hello@veyilsolutions.com" className="contact-item">
-                <Mail size={16} /> <span>hello@veyilsolutions.com</span>
+              <a href="mailto:hello@pathfinder.com" className="contact-item">
+                <Mail size={16} /> <span>hello@pathfinder.com</span>
               </a>
               <a href="tel:+918637373116" className="contact-item">
                 <Phone size={16} /> <span>+91 86373 73116</span>
@@ -128,15 +128,15 @@ export default function Footer() {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link"><Facebook size={18} /></a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link"><Instagram size={18} /></a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link"><Twitter size={18} /></a>
-              <a href="https://veyilsolutions.com" target="_blank" rel="noopener noreferrer" className="social-link"><Globe size={18} /></a>
+              <a href="https://pathfinder.com" target="_blank" rel="noopener noreferrer" className="social-link"><Globe size={18} /></a>
             </div>
-            <p className="copyright">© 2026 VEYILSOLUTIONS. ALL RIGHTS RESERVED.</p>
+            <p className="copyright">© 2026 PATH FINDER. ALL RIGHTS RESERVED.</p>
           </div>
         </div>
       </div>
 
       <div className="bg-text-wrapper">
-        <TextHoverEffect text="VEYIL" />
+        <TextHoverEffect text="PATH FINDER" />
       </div>
     </footer>
   );
