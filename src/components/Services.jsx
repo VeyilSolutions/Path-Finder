@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion as Motion } from "framer-motion";
-import "../styles/services.css"; // Ensure this path is correct
+import "../styles/services.css";
 
 const services = [
   {
