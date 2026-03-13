@@ -11,9 +11,9 @@ export default function Navbar() {
   return (
     <header className="navbar-header">
       <div className="navbar-container">
-        {/* Updated Logo for Veyil Solutions */}
+       
         <Link to="/" className="navbar-logo">
-          <span className="logo-text">VEYIL<span className="text-blue">SOLUTIONS</span></span>
+          <span className="logo-text">PATH<span className="text-blue">FINDER</span></span>
         </Link>
 
         {/* Navigation Links */}
