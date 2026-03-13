@@ -115,7 +115,7 @@ export default function Contact() {
                   <Mail className="info-icon" />
                   <h4>Email</h4>
                 </div>
-                <p>info@Veyilsolutions.com</p>
+                <p>info@pathfinder.com</p>
               </div>
 
               <div className="info-card glass-card">
